@@ -16,8 +16,9 @@
     color: #ffd700;
   }
 }
+
 @for $i from 1 through 35 {
-  .text-animate_#{i} {
+  .text-animate._#{$i} {
     animation-delay: #{$i / 10}s;
   }
 }
